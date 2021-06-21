@@ -1,0 +1,1628 @@
+@charset "UTF-8";
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+     ========================================================================== */
+/**
+   * Remove the margin in all browsers.
+   */
+body {
+  margin: 0;
+}
+
+/**
+   * Render the `main` element consistently in IE.
+   */
+main {
+  display: block;
+}
+
+/**
+   * Correct the font size and margin on `h1` elements within `section` and
+   * `article` contexts in Chrome, Firefox, and Safari.
+   */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+     ========================================================================== */
+/**
+   * 1. Add the correct box sizing in Firefox.
+   * 2. Show the overflow in Edge and IE.
+   */
+hr {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+     ========================================================================== */
+/**
+   * Remove the gray background on active links in IE 10.
+   */
+a {
+  background-color: transparent;
+}
+
+/**
+   * 1. Remove the bottom border in Chrome 57-
+   * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+   */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+   * Add the correct font weight in Chrome, Edge, and Safari.
+   */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+   * Add the correct font size in all browsers.
+   */
+small {
+  font-size: 80%;
+}
+
+/**
+   * Prevent `sub` and `sup` elements from affecting the line height in
+   * all browsers.
+   */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+     ========================================================================== */
+/**
+   * Remove the border on images inside links in IE 10.
+   */
+img {
+  border-style: none;
+}
+
+/* Forms
+     ========================================================================== */
+/**
+   * 1. Change the font styles in all browsers.
+   * 2. Remove the margin in Firefox and Safari.
+   */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+   * Show the overflow in IE.
+   * 1. Show the overflow in Edge.
+   */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+   * Remove the inheritance of text transform in Edge, Firefox, and IE.
+   * 1. Remove the inheritance of text transform in Firefox.
+   */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+   * Correct the inability to style clickable types in iOS and Safari.
+   */
+button,
+[type='button'],
+[type='reset'],
+[type='submit'] {
+  -webkit-appearance: button;
+}
+
+/**
+   * Remove the inner border and padding in Firefox.
+   */
+button::-moz-focus-inner,
+[type='button']::-moz-focus-inner,
+[type='reset']::-moz-focus-inner,
+[type='submit']::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+   * Restore the focus styles unset by the previous rule.
+   */
+button:-moz-focusring,
+[type='button']:-moz-focusring,
+[type='reset']:-moz-focusring,
+[type='submit']:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+   * Correct the padding in Firefox.
+   */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+   * 1. Correct the text wrapping in Edge and IE.
+   * 2. Correct the color inheritance from `fieldset` elements in IE.
+   * 3. Remove the padding so developers are not caught out when they zero out
+   *    `fieldset` elements in all browsers.
+   */
+legend {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+   * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+   */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+   * Remove the default vertical scrollbar in IE 10+.
+   */
+textarea {
+  overflow: auto;
+}
+
+/**
+   * 1. Add the correct box sizing in IE 10.
+   * 2. Remove the padding in IE 10.
+   */
+[type='checkbox'],
+[type='radio'] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+   * Correct the cursor style of increment and decrement buttons in Chrome.
+   */
+[type='number']::-webkit-inner-spin-button,
+[type='number']::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+   * 1. Correct the odd appearance in Chrome and Safari.
+   * 2. Correct the outline style in Safari.
+   */
+[type='search'] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+   * Remove the inner padding in Chrome and Safari on macOS.
+   */
+[type='search']::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+   * 1. Correct the inability to style clickable types in iOS and Safari.
+   * 2. Change font properties to `inherit` in Safari.
+   */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+     ========================================================================== */
+/*
+   * Add the correct display in Edge, IE 10+, and Firefox.
+   */
+details {
+  display: block;
+}
+
+/*
+   * Add the correct display in all browsers.
+   */
+summary {
+  display: list-item;
+}
+
+/* Misc
+     ========================================================================== */
+/**
+   * Add the correct display in IE 10+.
+   */
+template {
+  display: none;
+}
+
+/**
+   * Add the correct display in IE 10.
+   */
+[hidden] {
+  display: none;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+button,
+button:active,
+button:focus {
+  outline: none;
+}
+
+@font-face {
+  font-family: HelveticaNeue;
+  src: url(fonts/HelveticaNeue.ttf);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #373a3c;
+  font-family: HelveticaNeue, Helvetica, Arial, sans-serif;
+}
+
+body._lock {
+  overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  margin: 0;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #373a3c;
+}
+
+.nav__bar {
+  padding: 0 160px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.nav__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 5;
+}
+
+.nav .search {
+  display: none;
+}
+
+.nav__ul {
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style-type: none;
+}
+
+.nav__li {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 28px;
+  cursor: pointer;
+}
+
+.nav__li .arrow {
+  margin-left: 7px;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.nav__li input {
+  margin: 11px 7px;
+  padding: 9px 16px;
+  width: 210px;
+  font-size: 16px;
+  line-height: 131%;
+  color: #435766;
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.nav__li img[alt='user'] {
+  margin-right: 5px;
+}
+
+.nav__link {
+  font-size: 16px;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.nav__animation {
+  position: absolute;
+  z-index: 2;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 0;
+  padding-top: 20px;
+  margin: 0;
+  left: 0;
+  top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  list-style-type: none;
+  border-radius: 4px;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+
+.nav__animation li {
+  padding: 10px 5px 5px 5px;
+  background: #373a3c;
+}
+
+.nav__animation li a {
+  font-size: 16px;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.nav__animation li a:hover {
+  color: white;
+}
+
+.nav .menu-burger__header {
+  display: none;
+}
+
+.slider {
+  margin-top: 62px;
+}
+
+.slider__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  width: 100vw;
+  min-height: 644px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.slider__item:active, .slider__item:focus {
+  outline: none;
+}
+
+.slider__BF {
+  background-image: url(../img/slider-head/1.jpg);
+}
+
+.slider__Dh {
+  background-image: url(../img/slider-head/2.jpg);
+}
+
+.slider__AL {
+  background-image: url(../img/slider-head/3.jpg);
+}
+
+.slider .slick-arrow {
+  /* Стрелка */
+  position: absolute;
+  padding: 0;
+  z-index: 1;
+  font-size: 0;
+  width: 100px;
+  height: 644px;
+  border: none;
+  top: 62px;
+  cursor: pointer;
+  -webkit-transition: -webkit-box-shadow 0.3s;
+  transition: -webkit-box-shadow 0.3s;
+  transition: box-shadow 0.3s;
+  transition: box-shadow 0.3s, -webkit-box-shadow 0.3s;
+}
+
+.slider .slick-arrow:hover {
+  -webkit-box-shadow: 0 0 0 322px rgba(0, 0, 0, 0.2) inset;
+          box-shadow: 0 0 0 322px rgba(0, 0, 0, 0.2) inset;
+}
+
+.slider .slick-arrow.slick-prev {
+  /* Стрелка влево */
+  left: 0;
+  background: url(../img/arrow_l.svg) no-repeat;
+  background-size: 14px;
+  background-position: center center;
+}
+
+.slider .slick-arrow.slick-next {
+  /* Стрелка вправо */
+  right: 0;
+  background: url(../img/arrow_r.svg) no-repeat;
+  background-size: 14px;
+  background-position: center center;
+}
+
+.slider .slick-dots {
+  /* Точки */
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0;
+  margin: 0;
+  margin-top: -40px;
+  margin-left: -51px;
+  left: 50%;
+}
+
+.slider .slick-dots li {
+  list-style: none;
+  margin: 0 10px;
+}
+
+.slider .slick-dots li button {
+  font-size: 0;
+  width: 10px;
+  height: 10px;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 1px solid #8dd83d;
+  padding: 0;
+  cursor: pointer;
+}
+
+.slider .slick-dots li button:hover {
+  -webkit-box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.4) inset;
+          box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.4) inset;
+}
+
+.slider .slick-dots li.slick-active button {
+  background-color: #8dd83d;
+  border: 1px solid #8dd83d;
+}
+
+.slider__game-name {
+  position: relative;
+  top: 40%;
+  left: 68%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 117%;
+}
+
+.slider__game-name span {
+  font-size: 36px;
+}
+
+.slider__buttons {
+  position: relative;
+  left: 68%;
+  top: 40%;
+  margin-top: 20px;
+}
+
+.slider__buttons a {
+  display: inline-block;
+  padding: 8px 19px;
+  font-size: 16px;
+  line-height: 131%;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 4px;
+  -webkit-transition: -webkit-transform 0.3s, -webkit-box-shadow 0.3s;
+  transition: -webkit-transform 0.3s, -webkit-box-shadow 0.3s;
+  transition: transform 0.3s, box-shadow 0.3s;
+  transition: transform 0.3s, box-shadow 0.3s, -webkit-transform 0.3s, -webkit-box-shadow 0.3s;
+}
+
+.slider__buttons a:hover {
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+  -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+.slider__buttons a.slider__firstBut {
+  margin-right: 13px;
+  background: #8dd83d;
+}
+
+.slider__buttons a.slider__secondBut {
+  background: -webkit-gradient(linear, left top, left bottom, from(#686c6f), to(#373a3c));
+  background: linear-gradient(180deg, #686c6f 0%, #373a3c 100%);
+}
+
+.slick-list {
+  /* Ограничивающая оболочка */
+  overflow: hidden;
+}
+
+.slick-track {
+  /* Лента слайдов */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-height: 644px;
+}
+
+.info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 64px 160px 160px 160px;
+  background: radial-gradient(100% 100% at 50% 0%, #686c6f 0%, #373a3c 100%);
+}
+
+.info__head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 42px;
+}
+
+.info__head img {
+  width: 64px;
+}
+
+.info__head h2 {
+  margin-top: 16px;
+  font-size: 48px;
+  line-height: 117%;
+}
+
+.info__head h3 {
+  font-size: 36px;
+  line-height: 117%;
+}
+
+.info__proposal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.info__card {
+  margin-right: 64px;
+}
+
+.info .third-card {
+  margin-right: 0;
+}
+
+.info__buttons {
+  margin-top: 38px;
+  margin-bottom: 27px;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 320px;
+  background: #ffffff;
+  border: 1px solid #8dd83d;
+  border-radius: 4px;
+}
+
+.card .card-text {
+  padding: 0 21px;
+  color: #435766;
+}
+
+.card .card-text h4 {
+  margin-top: 22px;
+  font-size: 18px;
+  line-height: 117%;
+}
+
+.card .card-text p {
+  margin-top: 13px;
+  font-size: 24px;
+  line-height: 117%;
+}
+
+.card .card-text .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 19px 22px;
+  font-size: 16px;
+  line-height: 131%;
+  color: #ffffff;
+  background: #8dd83d;
+  border-radius: 4px;
+  text-decoration: none;
+  position: relative;
+  top: 0;
+  left: 0;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.card .card-text .links:hover {
+  -webkit-box-shadow: 2px 2px white, 4px 4px #8dd83d;
+          box-shadow: 2px 2px white, 4px 4px #8dd83d;
+  top: -4px;
+  left: -4px;
+}
+
+.games {
+  background-image: url(../img/slider_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 97px 0 140px 0;
+}
+
+.games__arrow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.games__arrow .slick-arrow {
+  /* Стрелка */
+  padding: 0;
+  z-index: 1;
+  font-size: 0;
+  width: 21px;
+  height: 21px;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+}
+
+.games__arrow .slick-arrow:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.games__arrow .slick-arrow.slick-prev {
+  /* Стрелка влево */
+  margin-left: 55px;
+  background: url(../img/arrow_l.svg) no-repeat;
+  background-size: 21px;
+  background-position: center center;
+}
+
+.games__arrow .slick-arrow.slick-next {
+  /* Стрелка вправо */
+  margin-right: 55px;
+  background: url(../img/arrow_r.svg) no-repeat;
+  background-size: 21px;
+  background-position: center center;
+}
+
+.games__arrow .slick-disabled {
+  visibility: hidden;
+}
+
+.games__arrow h2 {
+  margin: 0;
+  text-align: center;
+  font-size: 36px;
+  line-height: 177%;
+  color: #fff;
+}
+
+.games__slider {
+  margin: 33px 0 44px 0;
+}
+
+.games__slider .slick-track {
+  margin-left: 66px;
+}
+
+.games__slider .slick-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 462px;
+}
+
+.games__slider .card {
+  position: relative;
+  margin-right: 29px;
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+}
+
+.games__slider .card .card-text h4 {
+  margin-bottom: 100px;
+}
+
+.games__slider .card .card-text .card-link {
+  margin-bottom: 27px;
+}
+
+.games__slider .card:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.games__store {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.games__store a {
+  padding: 11px 47px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#686c6f), to(#373a3c));
+  background: linear-gradient(180deg, #686c6f 0%, #373a3c 100%);
+  border-radius: 4px;
+  font-size: 21px;
+  line-height: 100%;
+  color: #fff;
+  text-decoration: none;
+  -webkit-transition: -webkit-transform 0.3s, -webkit-box-shadow 0.3s;
+  transition: -webkit-transform 0.3s, -webkit-box-shadow 0.3s;
+  transition: transform 0.3s, box-shadow 0.3s;
+  transition: transform 0.3s, box-shadow 0.3s, -webkit-transform 0.3s, -webkit-box-shadow 0.3s;
+}
+
+.games__store a:hover {
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+  -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+.design-lab {
+  padding: 114px 166px 145px 166px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: url(../img/lab_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.design-lab__text {
+  color: #fff;
+}
+
+.design-lab__text h2 {
+  display: inline;
+  font-size: 48px;
+  line-height: 117%;
+}
+
+.design-lab__text p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 9px 0 37px 0;
+  font-size: 24px;
+  line-height: 117%;
+  max-width: 530px;
+}
+
+.design-lab__text .link {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  color: #fff;
+  margin-right: 15px;
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 131%;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+}
+
+.design-lab__text .link:hover {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+.design-lab__text .dark {
+  padding: 20px 50px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#686c6f), to(#373a3c));
+  background: linear-gradient(180deg, #686c6f 0%, #373a3c 100%);
+}
+
+.design-lab__text .green {
+  padding: 20px 23px;
+  background: #8dd83d;
+}
+
+.xbox {
+  padding: 58px 100px 38px 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.xbox__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+}
+
+.xbox__nav h3 {
+  margin-bottom: 34px;
+  color: #7dd42f;
+  font-size: 18px;
+  line-height: 117%;
+}
+
+.xbox__nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.xbox__nav ul li {
+  margin-bottom: 29px;
+}
+
+.xbox__nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  line-height: 117%;
+  border: none;
+}
+
+.xbox__nav ul li a:after {
+  background-color: #fff;
+  display: block;
+  content: '';
+  height: 2px;
+  width: 0%;
+  -webkit-transition: width 0.3s ease-in-out;
+  transition: width 0.3s ease-in-out;
+}
+
+.xbox__nav ul li a:hover:after,
+.xbox__nav ul li a:focus:after {
+  width: 100%;
+}
+
+.xbox__nav-1 {
+  margin-bottom: 20px;
+}
+
+.xbox__contact ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.xbox__contact ul li {
+  margin-bottom: 0;
+  margin-right: 20px;
+}
+
+.xbox__contact ul li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+}
+
+.xbox__contact ul li a:after {
+  content: none;
+}
+
+.xbox__contact ul li a:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.xbox__foot {
+  margin-top: 19px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.xbox__foot select {
+  color: #fff;
+  font-size: 16px;
+  line-height: 117%;
+  background-color: #373a3c;
+  border: none;
+}
+
+.xbox__foot p {
+  margin: 0;
+  color: #fff;
+  font-size: 16px;
+  line-height: 117%;
+}
+
+body._pc .nav__li:hover .nav__link {
+  color: white;
+}
+
+body._pc .nav__li:hover .arrow {
+  -webkit-transform: rotate(-180deg);
+          transform: rotate(-180deg);
+}
+
+body._pc .nav__li:hover .nav__animation {
+  visibility: visible;
+  opacity: 1;
+}
+
+body._touch li._active .nav__animation {
+  visibility: visible;
+  opacity: 1;
+}
+
+body._touch li._active .arrow {
+  -webkit-transform: rotate(-180deg);
+          transform: rotate(-180deg);
+}
+
+/*********************************Adaptive*********************************/
+@media (max-width: 1399.98px) {
+  .info {
+    padding: 64px 130px 70px 130px;
+  }
+  .info__head {
+    margin-bottom: 0;
+  }
+  .info__proposal {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .info__card {
+    margin-right: 30px;
+    margin-top: 60px;
+  }
+  .games {
+    padding: 97px 0;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .nav__bar {
+    padding: 0 80px;
+  }
+  .slider .slick-arrow {
+    width: 70px;
+    height: 500px;
+  }
+  .slider__buttons {
+    top: 65%;
+    left: 60%;
+  }
+  .slider__game-name {
+    top: 65%;
+    left: 60%;
+  }
+  .slider__item {
+    min-height: 500px;
+  }
+  .info {
+    padding: 40px 80px 50px 80px;
+  }
+  .info__head h2 {
+    font-size: 40px;
+  }
+  .info__head h3 {
+    font-size: 28px;
+  }
+  .info__buttons {
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+  .card .card-text h4 {
+    margin-top: 15px;
+    font-size: 16px;
+  }
+  .games {
+    padding: 70px 0;
+  }
+  .games__slider {
+    margin: 0;
+  }
+  .games__slider .card .card-text h4 {
+    margin-bottom: 70px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .nav__bar {
+    padding: 0 30px;
+    height: 62px;
+  }
+  .nav__menu {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 100px 30px 30px 30px;
+    -webkit-transition: left 0.3s ease 0s;
+    transition: left 0.3s ease 0s;
+    overflow: auto;
+  }
+  .nav__menu._active {
+    left: 0;
+  }
+  .nav__menu:before {
+    content: '';
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 62px;
+    background: #373a3c;
+    z-index: 3;
+  }
+  .nav__ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .nav .search {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 300px;
+    margin-bottom: 0;
+    z-index: 5;
+  }
+  .nav__li {
+    margin-left: 0;
+    margin-bottom: 30px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .nav__li .arrow {
+    width: 15px;
+  }
+  .nav__li:nth-child(4) {
+    display: none;
+  }
+  .nav__li:last-child {
+    margin-bottom: 0;
+  }
+  .nav__li._active .nav__animation {
+    display: block;
+  }
+  .nav__link {
+    font-size: 24px;
+    color: #fff;
+  }
+  .nav__animation {
+    position: relative;
+    padding-top: 0;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 100%;
+            flex: 1 1 100%;
+    display: none;
+  }
+  .nav__animation li {
+    padding: 15px 5px 5px 5px;
+  }
+  .nav__animation li a {
+    color: #fff;
+    font-size: 20px;
+  }
+  .nav__animation li:first-child {
+    padding: 5px 5px 5px 5px;
+  }
+  .nav .menu-burger__header {
+    position: relative;
+    width: 40px;
+    height: 35px;
+    display: block;
+    cursor: pointer;
+    z-index: 5;
+  }
+  .nav .menu-burger__header span,
+  .nav .menu-burger__header:after,
+  .nav .menu-burger__header:before {
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    background: #fff;
+    margin: 0 auto;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+  .nav .menu-burger__header span {
+    top: 16px;
+  }
+  .nav .menu-burger__header:after,
+  .nav .menu-burger__header:before {
+    content: '';
+  }
+  .nav .menu-burger__header:after {
+    bottom: 5px;
+  }
+  .nav .menu-burger__header:before {
+    top: 5px;
+  }
+  .nav .menu-burger__header._active span {
+    opacity: 0;
+  }
+  .nav .menu-burger__header._active:before {
+    -webkit-transform: rotate(38deg);
+            transform: rotate(38deg);
+    top: 16px;
+  }
+  .nav .menu-burger__header._active:after {
+    -webkit-transform: rotate(-38deg);
+            transform: rotate(-38deg);
+    bottom: 16px;
+  }
+  .slider__item {
+    min-height: 400px;
+  }
+  .slider__game-name {
+    top: 60%;
+    left: 57%;
+  }
+  .slider__game-name span {
+    font-size: 30px;
+  }
+  .slider__buttons {
+    top: 60%;
+    left: 57%;
+    margin-top: 10px;
+  }
+  .slider__buttons a {
+    padding: 8px 15px;
+    font-size: 14px;
+  }
+  .slider .slick-arrow {
+    width: 60px;
+    height: 400px;
+  }
+  .info__head img {
+    width: 50px;
+  }
+  .info__head h2 {
+    font-size: 30px;
+  }
+  .info__head h3 {
+    font-size: 22px;
+  }
+  .info__card {
+    margin-right: 0px;
+    margin-top: 40px;
+  }
+  .games {
+    padding: 60px 0;
+  }
+  .games__arrow h2 {
+    font-size: 30px;
+  }
+  .games__slider .slick-track {
+    margin-left: 50px;
+  }
+  .design-lab {
+    padding: 80px 30px;
+  }
+  .design-lab__text h2 {
+    font-size: 40px;
+  }
+  .design-lab__text p {
+    margin: 5px 0 30px 0;
+    font-size: 20px;
+    max-width: 400px;
+  }
+  .design-lab__text .link {
+    margin-right: 10px;
+    font-size: 14px;
+  }
+  .design-lab__text .dark {
+    padding: 15px 30px;
+  }
+  .design-lab__text .green {
+    padding: 15px 15px;
+  }
+  .xbox {
+    padding: 58px 80px 38px 80px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .nav .search {
+    display: none;
+  }
+  .nav__bar {
+    padding: 0 20px;
+  }
+  .slider .slick-arrow {
+    width: 40px;
+  }
+  .slider__game-name {
+    font-size: 18px;
+    left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .slider__game-name span {
+    font-size: 24px;
+  }
+  .slider__buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    left: 0;
+  }
+  .slider__buttons a.slider__firstBut {
+    margin-right: 0;
+  }
+  .slider__buttons a.slider__secondBut {
+    margin-top: 10px;
+  }
+  .card {
+    width: 280px;
+  }
+  .card .card-text h4 {
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  .card .card-text p {
+    margin-top: 10px;
+    font-size: 19px;
+  }
+  .card .card-text .links {
+    padding: 8px 2px;
+  }
+  .info {
+    padding: 40px 20px 50px 20px;
+  }
+  .games {
+    padding: 40px 0;
+  }
+  .games__arrow .slick-arrow {
+    width: 15px;
+    height: 15px;
+  }
+  .games__arrow .slick-arrow.slick-prev {
+    margin-left: 20px;
+    background-size: 15px;
+  }
+  .games__arrow .slick-arrow.slick-next {
+    margin-right: 20px;
+    background-size: 15px;
+  }
+  .games__arrow h2 {
+    font-size: 24px;
+  }
+  .games__slider .slick-track {
+    margin-left: 20px;
+  }
+  .games__slider .slick-list {
+    min-height: 360px;
+  }
+  .games .games__store a {
+    margin-top: 20px;
+  }
+  .design-lab {
+    background-position: center;
+    padding: 20px 30px;
+  }
+  .design-lab__text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .design-lab__text h2 {
+    font-size: 30px;
+  }
+  .design-lab__text p {
+    font-size: 18px;
+    max-width: none;
+  }
+  .design-lab__text .link {
+    margin-right: 0;
+  }
+  .design-lab__text .dark {
+    padding: 15px 30px;
+  }
+  .design-lab__text .green {
+    margin-top: 10px;
+    padding: 15px 15px;
+  }
+  .xbox {
+    padding: 50px 20px 30px 20px;
+  }
+  .xbox__nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .xbox__nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .xbox__nav ul li {
+    margin-bottom: 15px;
+    margin-right: 20px;
+  }
+  .xbox__nav h3 {
+    margin-bottom: 15px;
+  }
+  .xbox__nav-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .xbox__nav-2 {
+    margin-bottom: 20px;
+  }
+  .xbox__foot .eng {
+    font-size: 14px;
+  }
+  .xbox__foot p {
+    font-size: 14px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
